@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  dev:
+    build:
+      context: .
+    ports:
+      - 3000:3000
+    command: npm start 
+    volumes:
+      - "./src:/srv/example/src"
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+      
