@@ -1,13 +1,11 @@
 import React, { Fragment } from 'react';
-import { Header } from './header/Header';
 
-
-export const Perfil: React.FC = () =>{
+export const Header: React.FC = () =>{
 
     return(
         <Fragment>
                 
-                <Header />
+              Isto é um Header
 
         </Fragment>
             
