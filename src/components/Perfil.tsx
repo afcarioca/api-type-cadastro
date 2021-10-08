@@ -5,7 +5,9 @@ export const Perfil: React.FC = () =>{
 
     return(
         <Fragment>
-                Perfil
+                Head
+                Main
+                Footer
         </Fragment>
             
     );
