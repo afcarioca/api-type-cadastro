@@ -7,7 +7,7 @@ export const Perfil: React.FC = () =>{
         <Fragment>
                 Head
                 Main
-                Footer
+
         </Fragment>
             
     );
